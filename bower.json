@@ -1,9 +1,9 @@
 {
-  "name": "gulp-base",
+  "name": "elizabeth-shealy-portfolio",
   "version": "0.0.0",
-  "homepage": "http://urltoyourgithubrepo.com",
+  "homepage": "https://github.com/elizabethshealy/portfolio",
   "authors": [
-    "Your Name <your@emailaddress.com>"
+    "Elizabeth Shealy <elizabeth.shealy@gmail.com>"
   ],
   "moduleType": [
     "node"
