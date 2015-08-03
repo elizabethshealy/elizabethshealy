@@ -23,7 +23,7 @@ var src = {
   allJs: './src/**/*.js',
   allFont: './src/**/*.{ttf,woff,otf,eot}',
   allScss: './src/**/*.scss',
-  allImg: './src/**/*.{jpg,png,svg,gif,ico,eps,pdf}'
+  allImg: './src/**/*.{jpg,png,svg,gif,ico,eps,pdf,tif}'
 };
 
 // The default task is what runs when you type 'gulp' in the terminal

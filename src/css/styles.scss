@@ -10,7 +10,7 @@
 .nav-link {
   display: inline-block;
   margin-right: 20px;
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Lora', serif;
 }
 
 .about-me {
@@ -25,11 +25,10 @@
 .about-me p {
   font-size: 50px;
   color: white;
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Lora', serif;
 }
 
 .row-1 {
-  background-color: red;
   height: 75px;
 }
 
@@ -64,6 +63,10 @@
   margin-top: 100px;
 }
 
+.portfolio-title {
+  margin-top: 50px;
+}
+
 .icon-bottom, .icon-bottom-right {
   display: inline-block;
   font-family: untitled-font-1;
@@ -93,4 +96,33 @@
 
 .copyright-row {
   height: 100px;
+}
+
+.grey-project {
+  height: 500px;
+  background-color: lightgrey;
+}
+
+.white-project {
+  height: 500px;
+}
+
+.white-project img {
+  float: left;
+}
+
+.grey-project img {
+  float: right;
+}
+
+.align-left {
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 23px;
+}
+
+p {
+  font-family: 'Lora', serif;
 }
