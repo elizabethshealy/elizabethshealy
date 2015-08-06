@@ -10,7 +10,8 @@
 .nav-link {
   display: inline-block;
   margin-right: 20px;
-  font-family: 'Lora', serif;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 .about-me {
@@ -125,4 +126,56 @@ h1 {
 
 p {
   font-family: 'Lora', serif;
+}
+
+.caption {
+  background-color: green;
+  width: 200px;
+  margin-left: 2%;
+}
+
+.cover-box {
+  background-color: red;
+}
+
+.portfolioimg-second:hover {
+  display: none;
+}
+
+#box {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 28px;
+  margin-right: 28px;
+  text-align: center;
+  width:300px;
+  height:200px;
+  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  background:url(/images/kycknew.png);
+  background-size:cover;
+  border-radius:5px;
+  overflow:hidden;
+}
+
+#overlay {
+  // background:rgba(0,0,0,.75);
+  background: red;
+  text-align:left;
+  margin-top: 170px;
+  padding: 0px 10px 0px 10px;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+#box:hover #overlay {
+  opacity:1;
+}
+
+#plus {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color:rgba(255,255,255,.85);
 }
