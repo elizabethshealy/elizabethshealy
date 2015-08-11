@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header-row {
+  height: 150px;
+  background-color: #F7F7F7; }
+
+.top-nav {
+  margin-top: 45px; }
+
+.nav-link {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+
+.about-me {
+  height: 450px;
+  background-color: #354458; }
+
+.about-me-text {
+  margin-top: 50px; }
+
+.about-me p {
+  font-size: 50px;
+  color: white;
+  font-family: 'Lora', serif; }
+
+.row-1 {
+  height: 75px; }
+
+.portfolioimg {
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.portfolioimg-second {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 28px;
+  margin-right: 28px;
+  text-align: center; }
+
+.portfolioimg-second:hover {
+  background-color: pink; }
+
+.contact-me {
+  margin-top: 80px;
+  height: 65px; }
+
+.about-project-text {
+  text-align: left;
+  margin-top: 100px; }
+
+.portfolio-title {
+  margin-top: 50px; }
+
+.icon-bottom, .icon-bottom-right {
+  display: inline-block;
+  font-family: untitled-font-1;
+  font-size: 2em;
+  color: gray;
+  z-index: 1;
+  text-align: center; }
+
+.icon-bottom-left {
+  margin-left: 50px; }
+
+.icon-bottom-right {
+  letter-spacing: 30px; }
+
+.copyright {
+  color: gray;
+  font-family: 'Lora', serif;
+  text-align: center; }
+
+.glyphicon {
+  letter-spacing: 5px; }
+
+.copyright-row {
+  height: 100px; }
+
+.grey-project {
+  height: 500px;
+  background-color: lightgrey; }
+
+.white-project {
+  height: 500px; }
+
+.white-project img {
+  float: left; }
+
+.grey-project img {
+  float: right; }
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 23px; }
+
+p {
+  font-family: 'Lora', serif; }
+
+.caption {
+  background-color: green;
+  width: 200px;
+  margin-left: 2%; }
+
+.cover-box {
+  background-color: red; }
+
+.portfolioimg-second:hover {
+  display: none; }
+
+#box {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 28px;
+  margin-right: 28px;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  background: url(/images/kycknew.png);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden; }
+
+#overlay {
+  background: red;
+  text-align: left;
+  margin-top: 170px;
+  padding: 0px 10px 0px 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease; }
+
+#box:hover #overlay {
+  opacity: 1; }
+
+#plus {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color: rgba(255, 255, 255, 0.85); }
+
+.about-me-paragraph {
+  margin-top: 60px; }
+
+.about-me-paragraph p {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: grey;
+  line-height: 160%; }
+
+.about-me-pic {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 28px;
+  margin-right: 28px;
+  text-align: center; }
