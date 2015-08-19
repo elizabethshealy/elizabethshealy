@@ -1,0 +1,32 @@
+.float-right {
+  display: inline-block;
+  float: right;
+  padding: 20px;
+  margin-top: 7px;
+}
+
+.float-left {
+  margin-top: 20px;
+  float:left;
+}
+
+
+#image {
+  display: inline-block;
+  margin-top: 80px;
+  text-align: center;
+  width: 500px;
+  height: 350px;
+  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  background-size:cover;
+  // border-radius:5px;
+  overflow:hidden;
+}
+
+
+#image-appt{
+  @extend #image;
+  background:url(/images/events.png);
+}

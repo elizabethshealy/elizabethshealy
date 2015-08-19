@@ -9,7 +9,8 @@
 
 .nav-link {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 30px;
+  float: right;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
@@ -116,8 +117,6 @@
   float: right;
 }
 
-.align-left {
-}
 
 h1 {
   font-family: 'Lora', serif;
@@ -145,37 +144,36 @@ p {
 #box {
   display: inline-block;
   margin-top: 80px;
-  margin-left: 28px;
-  margin-right: 28px;
   text-align: center;
-  width:300px;
+  width: 200px;
   height:200px;
   box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
-  background:url(/images/kycknew.png);
   background-size:cover;
-  border-radius:5px;
+  // border-radius:5px;
   overflow:hidden;
 }
 
-#overlay {
-  // background:rgba(0,0,0,.75);
-  background: red;
-  text-align:left;
-  margin-top: 170px;
-  padding: 0px 10px 0px 10px;
-  opacity:0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
+
+#box-forge {
+  @extend #box;
+  background:url(/images/forgescreen1.png);
 }
 
-#box:hover #overlay {
-  opacity:1;
+#box-appts {
+  @extend #box;
+  background:url(/images/events.png);
 }
 
-#plus {
+h3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20pt;
-  color:rgba(255,255,255,.85);
+}
+
+.link {
+  z-index: 5;
+}
+
+.space-row {
+  height: 30px;
 }
