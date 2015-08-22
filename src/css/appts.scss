@@ -1,12 +1,12 @@
-.float-right {
-  display: inline-block;
-  float: right;
-  padding: 20px;
-  margin-top: 7px;
-}
+// .float-right {
+//   display: inline-block;
+//   float: right;
+//   padding: 20px;
+//   margin-top: 7px;
+// }
 
 .float-left {
-  margin-top: 20px;
+  margin-top: 60px;
   float:left;
 }
 
@@ -15,7 +15,7 @@
   display: inline-block;
   margin-top: 80px;
   text-align: center;
-  width: 500px;
+  width: 600px;
   height: 350px;
   box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
   border-bottom:2px solid #fff;
@@ -28,5 +28,14 @@
 
 #image-appt{
   @extend #image;
-  background:url(/images/events.png);
+  background:url(/images/events.png) no-repeat;
+}
+
+.appt-text {
+  margin-top: 80px;
+  font-family: 'Cardo', serif;
+}
+
+ul {
+  font-family: 'Cardo', serif;
 }
