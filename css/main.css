@@ -50,12 +50,14 @@ table {
   background-color: #F7F7F7; }
 
 .top-nav {
-  margin-top: 45px; }
+  margin-top: 60px; }
 
 .nav-link {
   display: inline-block;
-  margin-right: 20px;
+  margin-left: 30px;
+  float: right;
   font-family: 'Montserrat', sans-serif;
+  font-size: 85%;
   text-transform: uppercase; }
 
 .about-me {
@@ -68,7 +70,7 @@ table {
 .about-me p {
   font-size: 50px;
   color: white;
-  font-family: 'Lora', serif; }
+  font-family: 'Cardo', serif; }
 
 .row-1 {
   height: 75px; }
@@ -117,7 +119,7 @@ table {
 
 .copyright {
   color: gray;
-  font-family: 'Lora', serif;
+  font-family: 'Cardo', serif;
   text-align: center; }
 
 .glyphicon {
@@ -140,11 +142,12 @@ table {
   float: right; }
 
 h1 {
-  font-family: 'Lora', serif;
-  font-size: 23px; }
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 120%; }
 
 p {
-  font-family: 'Lora', serif; }
+  font-family: 'Cardo', serif; }
 
 .caption {
   background-color: green;
@@ -157,38 +160,38 @@ p {
 .portfolioimg-second:hover {
   display: none; }
 
-#box {
+#box, #box-forge, #box-appts, #box-boxes {
   display: inline-block;
   margin-top: 80px;
-  margin-left: 28px;
-  margin-right: 28px;
   text-align: center;
-  width: 300px;
+  width: 200px;
   height: 200px;
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
-  background: url(/images/kycknew.png);
   background-size: cover;
-  border-radius: 5px;
   overflow: hidden; }
 
-#overlay {
-  background: red;
-  text-align: left;
-  margin-top: 170px;
-  padding: 0px 10px 0px 10px;
-  opacity: 0;
-  -webkit-transition: opacity 0.25s ease;
-  -moz-transition: opacity 0.25s ease; }
+#box-forge {
+  background: url(/images/forgescreen1.png); }
 
-#box:hover #overlay {
-  opacity: 1; }
+#box-appts {
+  background: url(/images/events.png); }
 
-#plus {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20pt;
-  color: rgba(255, 255, 255, 0.85); }
+#box-boxes {
+  background: url(/images/sboxes1.png); }
+
+h3 {
+  font-family: 'Cardo', serif; }
+
+.link {
+  z-index: 5; }
+
+.space-row {
+  height: 30px; }
+
+.es-logo {
+  margin-top: 10px; }
 
 .about-me-paragraph {
   margin-top: 60px; }
@@ -205,3 +208,32 @@ p {
   margin-left: 28px;
   margin-right: 28px;
   text-align: center; }
+
+.float-left {
+  margin-top: 60px;
+  float: left; }
+
+#image, #image-appt, #image-sboxes2 {
+  display: inline-block;
+  margin-top: 80px;
+  text-align: center;
+  width: 600px;
+  height: 350px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  background-size: cover;
+  overflow: hidden; }
+
+#image-appt {
+  background: url(/images/events.png) no-repeat; }
+
+.appt-text {
+  margin-top: 80px;
+  font-family: 'Cardo', serif; }
+
+ul {
+  font-family: 'Cardo', serif; }
+
+#image-sboxes2 {
+  background: url(/images/sboxes2.png) no-repeat; }
