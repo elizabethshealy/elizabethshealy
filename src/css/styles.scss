@@ -1,7 +1,7 @@
 
 .header-row {
   height: 150px;
-  background-color: #F7F7F7;
+  // background-color: #F7F7F7;
 }
 
 .top-nav {
@@ -12,8 +12,9 @@
   display: inline-block;
   margin-left: 30px;
   float: right;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 85%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 95%;
   text-transform: uppercase;
 }
 
@@ -74,22 +75,24 @@
 .icon-bottom, .icon-bottom-right {
   display: inline-block;
   font-family: untitled-font-1;
-  font-size: 2em;
-  color: gray;
+  font-size: 1.75em;
+  padding: 6px;
+  margin-left: 2px;
+  color: #3f5eac;
   z-index: 1;
   text-align: center;
 }
 
-.icon-bottom-left {
-  margin-left: 50px;
-}
+// .icon-bottom-left {
+//   margin-left: 50px;
+// }
 
-.icon-bottom-right {
-  letter-spacing: 30px;
-}
+// .icon-bottom-right {
+//   letter-spacing: 30px;
+// }
 
 .copyright {
-  color: gray;
+  color: #3f5eac;
   font-family: 'Cardo', serif;
   text-align: center;
 }
@@ -148,12 +151,13 @@ p {
   display: inline-block;
   margin-top: 80px;
   text-align: center;
-  width: 200px;
+  width: 250px;
   height:200px;
   box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
   background-size:cover;
+  border-spacing: 20px;
   // border-radius:5px;
   overflow:hidden;
 }
@@ -175,7 +179,8 @@ p {
 }
 
 h3 {
-  font-family: 'Cardo', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 .link {
@@ -188,4 +193,12 @@ h3 {
 
 .es-logo {
   margin-top: 10px;
+}
+
+hr {
+  width: 80%;
+}
+
+a:hover {
+  text-decoration: none;
 }
