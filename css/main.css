@@ -49,7 +49,7 @@ table {
   height: 150px; }
 
 .top-nav {
-  margin-top: 60px; }
+  margin-top: 65px; }
 
 .nav-link {
   display: inline-block;
@@ -58,7 +58,8 @@ table {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 95%;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #050505; }
 
 .about-me {
   height: 450px;
@@ -102,14 +103,13 @@ table {
   display: inline-block;
   font-family: untitled-font-1;
   font-size: 1.75em;
-  padding: 6px;
-  margin-left: 2px;
-  color: #3f5eac;
+  padding: 0 34px;
+  color: #050505;
   z-index: 1;
   text-align: center; }
 
 .copyright {
-  color: #3f5eac;
+  color: #050505;
   font-family: 'Cardo', serif;
   text-align: center; }
 
@@ -145,9 +145,6 @@ p {
   width: 200px;
   margin-left: 2%; }
 
-.cover-box {
-  background-color: red; }
-
 .portfolioimg-second:hover {
   display: none; }
 
@@ -165,7 +162,9 @@ p {
   overflow: hidden; }
 
 #box-forge {
-  background: url(/images/forgescreen.png); }
+  background: url(/images/forgescreen.png);
+  margin-left: 0 auto;
+  margin-right: 0 auto; }
 
 #box-appts {
   background: url(/images/events-sm.png); }
@@ -184,7 +183,7 @@ h3 {
   height: 30px; }
 
 .es-logo {
-  margin-top: 10px; }
+  margin-top: 15%; }
 
 hr {
   width: 80%; }
