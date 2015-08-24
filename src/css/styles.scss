@@ -27,11 +27,11 @@
   margin-top: 50px;
 }
 
-.about-me p {
-  font-size: 50px;
-  color: white;
-  font-family: 'Cardo', serif;
-}
+// .about-me p {
+//   font-size: 50px;
+//   color: white;
+//   font-family: 'Cardo', serif;
+// }
 
 .row-1 {
   height: 75px;
@@ -151,7 +151,7 @@ p {
   display: inline-block;
   margin-top: 80px;
   text-align: center;
-  width: 250px;
+  width: 275px;
   height:200px;
   box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
   border-bottom:2px solid #fff;
@@ -165,17 +165,17 @@ p {
 
 #box-forge {
   @extend #box;
-  background:url(/images/forgescreen1.png);
+  background:url(/images/forgescreen.png);
 }
 
 #box-appts {
   @extend #box;
-  background:url(/images/events.png);
+  background:url(/images/events-sm.png);
 }
 
 #box-boxes {
   @extend #box;
-  background:url(/images/sboxes1.png);
+  background:url(/images/smashing1.png);
 }
 
 h3 {

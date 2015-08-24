@@ -5,15 +5,29 @@
 //   margin-top: 7px;
 // }
 
+// .float-left-low {
+//   margin-top: 90px;
+//   float:left;
+// }
+//
+// .float-left {
+//   margin-top: 60px;
+//   float:left;
+// }
+
 .float-left {
-  margin-top: 60px;
-  float:left;
+  margin-top: 50px;
+  line-height: 200%;
 }
 
+.float-left-low {
+  font-family: 'Cardo', serif;
+  font-size: 90%;
+}
 
 #image {
   display: inline-block;
-  margin-top: 80px;
+  margin-top: 70px;
   text-align: center;
   width: 600px;
   height: 350px;
@@ -28,7 +42,12 @@
 
 #image-appt{
   @extend #image;
-  background:url(/images/events.png) no-repeat;
+  background:url(/images/events1.png) no-repeat;
+}
+
+#image-forge{
+  @extend #image;
+  background:url(/images/forgelg.png) no-repeat;
 }
 
 .appt-text {
@@ -38,4 +57,8 @@
 
 ul {
   font-family: 'Cardo', serif;
+}
+
+.long-break {
+  margin-top: 20px;
 }
