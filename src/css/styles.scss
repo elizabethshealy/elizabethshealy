@@ -8,6 +8,14 @@
   margin-top: 65px;
 }
 
+// p {
+//   color: #6e6e6e;
+// }
+//
+// .text-style {
+//   color: #6e6e6e;
+// }
+
 .nav-link {
   display: inline-block;
   margin-left: 30px;
@@ -16,6 +24,7 @@
   font-weight: 600;
   font-size: 95%;
   text-transform: uppercase;
+  color: #050505;
 }
 
 .about-me {
@@ -76,9 +85,9 @@
   display: inline-block;
   font-family: untitled-font-1;
   font-size: 1.75em;
-  padding: 6px;
-  margin-left: 2px;
-  color: #3f5eac;
+  padding: 0 34px;
+  // margin-left: 6px;
+  color: #050505;
   z-index: 1;
   text-align: center;
 }
@@ -92,7 +101,7 @@
 // }
 
 .copyright {
-  color: #3f5eac;
+  color: #050505;
   font-family: 'Cardo', serif;
   text-align: center;
 }
@@ -139,9 +148,9 @@ p {
   margin-left: 2%;
 }
 
-.cover-box {
-  background-color: red;
-}
+// .cover-box {
+//   background-color: red;
+// }
 
 .portfolioimg-second:hover {
   display: none;
@@ -166,6 +175,8 @@ p {
 #box-forge {
   @extend #box;
   background:url(/images/forgescreen.png);
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 
 #box-appts {
@@ -176,6 +187,7 @@ p {
 #box-boxes {
   @extend #box;
   background:url(/images/smashing1.png);
+  // float: right;
 }
 
 h3 {
@@ -202,3 +214,23 @@ hr {
 a:hover {
   text-decoration: none;
 }
+//
+// .row {
+//   margin-left: 0;
+//   margin-right: 0;
+// }
+
+// .push-right {
+//   margin-left: 15px;
+// }
+
+// .middle-row {
+//   display: block;
+//   max-width: 100%;
+//   margin: auto;
+// }
+
+// .box-fill {
+//   margin-left: 0;
+//   margin-right: 0;
+// }
