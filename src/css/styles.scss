@@ -1,3 +1,9 @@
+.container {
+  width: 80%;
+  // display: block;
+  // margin-left: 0 auto;
+  // margin-right: 0 auto;
+}
 
 .header-row {
   height: 150px;
@@ -8,6 +14,22 @@
   margin-top: 65px;
 }
 
+.nav-link {
+  display: inline-block;
+  margin-left: 30px;
+  // float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 95%;
+  text-transform: uppercase;
+  color: #050505;
+}
+
+hr.break {
+  width: 97%;
+}
+
+
 // p {
 //   color: #6e6e6e;
 // }
@@ -16,16 +38,7 @@
 //   color: #6e6e6e;
 // }
 
-.nav-link {
-  display: inline-block;
-  margin-left: 30px;
-  float: right;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-  font-size: 95%;
-  text-transform: uppercase;
-  color: #050505;
-}
+
 
 .about-me {
   height: 450px;
@@ -81,16 +94,7 @@
   margin-top: 50px;
 }
 
-.icon-bottom, .icon-bottom-right {
-  display: inline-block;
-  font-family: untitled-font-1;
-  font-size: 1.75em;
-  padding: 0 34px;
-  // margin-left: 6px;
-  color: #050505;
-  z-index: 1;
-  text-align: center;
-}
+
 
 // .icon-bottom-left {
 //   margin-left: 50px;
@@ -100,19 +104,6 @@
 //   letter-spacing: 30px;
 // }
 
-.copyright {
-  color: #050505;
-  font-family: 'Cardo', serif;
-  text-align: center;
-}
-
-.glyphicon {
-  letter-spacing: 5px;
-}
-
-.copyright-row {
-  height: 100px;
-}
 
 .grey-project {
   height: 500px;
@@ -175,8 +166,8 @@ p {
 #box-forge {
   @extend #box;
   background:url(/images/forgescreen.png);
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  // margin-left: 0 auto;
+  // margin-right: 0 auto;
 }
 
 #box-appts {
@@ -204,7 +195,7 @@ h3 {
 }
 
 .es-logo {
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 hr {
@@ -213,6 +204,37 @@ hr {
 
 a:hover {
   text-decoration: none;
+}
+
+.icon-bottom, .icon-bottom-right {
+  display: inline-block;
+  // margin: 0 auto;
+  // width: 1000px;
+  font-family: untitled-font-1;
+  font-size: 1.75em;
+  padding: 0 25px;
+  // margin-left: 6px;
+  color: #050505;
+  z-index: 1;
+  text-align: center;
+}
+
+.copyright {
+  color: #050505;
+  font-family: 'Cardo', serif;
+  text-align: center;
+}
+
+.glyphicon {
+  letter-spacing: 3px;
+}
+
+.copyright-row {
+  height: 100px;
+}
+
+.icons {
+  text-align: center;
 }
 //
 // .row {
