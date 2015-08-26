@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.container {
+  width: 80%; }
+
 .header-row {
   height: 150px; }
 
@@ -54,12 +57,14 @@ table {
 .nav-link {
   display: inline-block;
   margin-left: 30px;
-  float: right;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 95%;
   text-transform: uppercase;
   color: #050505; }
+
+hr.break {
+  width: 97%; }
 
 .about-me {
   height: 450px;
@@ -98,26 +103,6 @@ table {
 
 .portfolio-title {
   margin-top: 50px; }
-
-.icon-bottom, .icon-bottom-right {
-  display: inline-block;
-  font-family: untitled-font-1;
-  font-size: 1.75em;
-  padding: 0 34px;
-  color: #050505;
-  z-index: 1;
-  text-align: center; }
-
-.copyright {
-  color: #050505;
-  font-family: 'Cardo', serif;
-  text-align: center; }
-
-.glyphicon {
-  letter-spacing: 5px; }
-
-.copyright-row {
-  height: 100px; }
 
 .grey-project {
   height: 500px;
@@ -162,9 +147,7 @@ p {
   overflow: hidden; }
 
 #box-forge {
-  background: url(/images/forgescreen.png);
-  margin-left: 0 auto;
-  margin-right: 0 auto; }
+  background: url(/images/forgescreen.png); }
 
 #box-appts {
   background: url(/images/events-sm.png); }
@@ -183,13 +166,36 @@ h3 {
   height: 30px; }
 
 .es-logo {
-  margin-top: 15%; }
+  margin-top: 7%; }
 
 hr {
   width: 80%; }
 
 a:hover {
   text-decoration: none; }
+
+.icon-bottom, .icon-bottom-right {
+  display: inline-block;
+  font-family: untitled-font-1;
+  font-size: 1.75em;
+  padding: 0 25px;
+  color: #050505;
+  z-index: 1;
+  text-align: center; }
+
+.copyright {
+  color: #050505;
+  font-family: 'Cardo', serif;
+  text-align: center; }
+
+.glyphicon {
+  letter-spacing: 3px; }
+
+.copyright-row {
+  height: 100px; }
+
+.icons {
+  text-align: center; }
 
 .about-me-paragraph {
   margin-top: 80px; }
