@@ -5,6 +5,11 @@
   // margin-right: 0 auto;
 }
 
+
+.other-nav {
+  background-color: pink;
+}
+
 .header-row {
   height: 150px;
   // background-color: #F7F7F7;
@@ -12,22 +17,29 @@
 
 .top-nav {
   margin-top: 66px;
+  background-color:red;
 }
 
 .nav-link {
   display: inline-block;
   margin-left: 30px;
-  // float: right;
+  float: right;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 95%;
   text-transform: uppercase;
   color: #050505;
+  background-color: green;
 }
 
-hr.break {
-  width: 97%;
+.boxes-text {
+  position: absolute;
 }
+
+//
+// hr.break {
+//   width: 97%;
+// }
 
 
 // p {
@@ -166,8 +178,7 @@ p {
 #box-forge {
   @extend #box;
   background:url(/images/forgescreen.png);
-  // margin-left: 0 auto;
-  // margin-right: 0 auto;
+  margin: auto;
 }
 
 #box-appts {
@@ -178,6 +189,8 @@ p {
 #box-boxes {
   @extend #box;
   background:url(/images/smashing1.png);
+  position: absolute;
+  right: 0px;
   // float: right;
 }
 
@@ -195,7 +208,7 @@ h3 {
 }
 
 .es-logo {
-  margin-top: 7%;
+  margin-top: 45px;
 }
 
 hr {
@@ -236,6 +249,21 @@ a:hover {
 .icons {
   text-align: center;
 }
+
+.boxes-text {
+  background-color: green;
+  caption: display;
+  caption-side: bottom;
+}
+
+// div.box-right h3 {
+//   display: table-caption;
+//   caption-side: bottom;
+//   // float: right;
+// }
+
+
+
 //
 // .row {
 //   margin-left: 0;
@@ -252,7 +280,6 @@ a:hover {
 //   margin: auto;
 // }
 
-// .box-fill {
-//   margin-left: 0;
-//   margin-right: 0;
+// .box-right {
+//   float: right;
 // }
