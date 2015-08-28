@@ -52,19 +52,20 @@ table {
   height: 150px; }
 
 .top-nav {
-  margin-top: 65px; }
+  margin-top: 66px; }
 
 .nav-link {
   display: inline-block;
   margin-left: 30px;
+  float: right;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   font-size: 95%;
   text-transform: uppercase;
   color: #050505; }
 
-hr.break {
-  width: 97%; }
+.boxes-text {
+  position: absolute; }
 
 .about-me {
   height: 450px;
@@ -147,7 +148,8 @@ p {
   overflow: hidden; }
 
 #box-forge {
-  background: url(/images/forgescreen.png); }
+  background: url(/images/forgescreen.png);
+  margin: auto; }
 
 #box-appts {
   background: url(/images/events-sm.png); }
@@ -166,7 +168,7 @@ h3 {
   height: 30px; }
 
 .es-logo {
-  margin-top: 35px; }
+  margin-top: 45px; }
 
 hr {
   width: 80%; }
@@ -197,6 +199,14 @@ a:hover {
 .icons {
   text-align: center; }
 
+.boxes-text {
+  background-color: green;
+  caption: display;
+  caption-side: bottom; }
+
+.down {
+  margin-top: 80px; }
+
 .about-me-paragraph {
   margin-top: 80px; }
 
@@ -210,6 +220,17 @@ a:hover {
   margin-left: 28px;
   margin-right: 28px;
   text-align: center; }
+
+.resume {
+  height: 575px;
+  width: 90%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 69px -6px rgba(0, 0, 0, 0.75); }
 
 .float-left {
   margin-top: 50px;

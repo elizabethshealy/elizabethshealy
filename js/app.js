@@ -1,7 +1,7 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-"use strict";var $=require("jquery"),_=require("underscore"),views=require("views"),router=require("../router");router.route("aboutme",function(){var e=views.aboutme;$(".main-content").html(e)});
+"use strict";var router=require("../router"),$=require("jquery"),_=require("underscore"),views=require("views"),pdf=require("../utilities/pdfobject.js");router.route("aboutme",function(){var e=views.aboutme;$(".main-content").html(e)});
 
-},{"../router":8,"jquery":"jquery","underscore":"underscore","views":"views"}],2:[function(require,module,exports){
+},{"../router":8,"../utilities/pdfobject.js":10,"jquery":"jquery","underscore":"underscore","views":"views"}],2:[function(require,module,exports){
 "use strict";var $=require("jquery"),_=require("underscore"),views=require("views"),router=require("../router");router.route("appts",function(){var r=views.appts;$(".main-content").html(r)});
 
 },{"../router":8,"jquery":"jquery","underscore":"underscore","views":"views"}],3:[function(require,module,exports){
@@ -25,7 +25,10 @@
 },{"./sorted-router":9}],9:[function(require,module,exports){
 "use strict";var Backbone=require("backbone"),_=require("underscore"),SortedRouter=Backbone.Router.extend({sortedRoutes:{},route:function(){for(var e=arguments.length-1,t=arguments[arguments.length-1],r=0;e>r;++r)this.sortedRoutes[arguments[r]]=t},init:function(){var e=-1e6,t=this;_.chain(_.pairs(this.sortedRoutes)).sortBy(function(t){var r=t[0];return r.indexOf("*")>=0?e:-r.split(":").length}).each(function(e){Backbone.Router.prototype.route.apply(t,e)}),Backbone.history.start()}});module.exports=SortedRouter;
 
-},{"backbone":"backbone","underscore":"underscore"}]},{},[7])
+},{"backbone":"backbone","underscore":"underscore"}],10:[function(require,module,exports){
+var PDFObject=function(e){if(!e||!e.url)return!1;var n,t,r="1.2",i=e.id||!1,a=e.width||"100%",o=e.height||"100%",c=e.pdfOpenParams,u=function(){var e=null;return window.ActiveXObject&&(e=new ActiveXObject("AcroPDF.PDF"),e||(e=new ActiveXObject("PDF.PdfCtrl")),null!==e)?!0:!1},d=function(){var e,n=navigator.plugins,t=n.length,r=/Adobe Reader|Adobe PDF|Acrobat/gi;for(e=0;t>e;e++)if(r.test(n[e].name))return!0;return!1},l=function(){var e=navigator.mimeTypes["application/pdf"];return e&&e.enabledPlugin},f=function(){var e=null;return d()||u()?e="Adobe":l()&&(e="generic"),e},s=function(){var e=document.getElementsByTagName("html");if(!e)return!1;var n=e[0].style,t=document.body.style;n.height="100%",n.overflow="hidden",t.margin="0",t.padding="0",t.height="100%",t.overflow="hidden"},h=function(e){var n,t="";if(!e)return t;for(n in e)e.hasOwnProperty(n)&&(t+=n+"=",t+="search"===n?encodeURI(e[n]):e[n],t+="&");return t.slice(0,t.length-1)},b=function(e){var u=null;switch(e){case"url":u=n;break;case"id":u=i;break;case"width":u=a;break;case"height":u=o;break;case"pdfOpenParams":u=c;break;case"pluginTypeFound":u=t;break;case"pdfobjectversion":u=r}return u},g=function(e){if(!t)return!1;var r=null;if(e){if(r=e.nodeType&&1===e.nodeType?e:document.getElementById(e),!r)return!1}else r=document.body,s(),a="100%",o="100%";return r.innerHTML='<object	data="'+n+'" type="application/pdf" width="'+a+'" height="'+o+'"></object>',r.getElementsByTagName("object")[0]};return n=encodeURI(e.url)+"#"+h(c),t=f(),this.get=function(e){return b(e)},this.embed=function(e){return g(e)},this};
+
+},{}]},{},[7])
 
 
 //# sourceMappingURL=app.js.map
