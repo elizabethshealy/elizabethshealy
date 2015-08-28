@@ -15,3 +15,14 @@
   margin-right: 28px;
   text-align: center;
 }
+
+.resume {
+  height:575px;
+  width:90%;
+  display:none;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 69px -6px rgba(0,0,0,0.75);
+}

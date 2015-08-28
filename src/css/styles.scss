@@ -6,9 +6,9 @@
 }
 
 
-.other-nav {
-  background-color: pink;
-}
+// .other-nav {
+//   background-color: pink;
+// }
 
 .header-row {
   height: 150px;
@@ -17,7 +17,7 @@
 
 .top-nav {
   margin-top: 66px;
-  background-color:red;
+  // background-color:red;
 }
 
 .nav-link {
@@ -29,7 +29,7 @@
   font-size: 95%;
   text-transform: uppercase;
   color: #050505;
-  background-color: green;
+  // background-color: green;
 }
 
 .boxes-text {
@@ -189,8 +189,8 @@ p {
 #box-boxes {
   @extend #box;
   background:url(/images/smashing1.png);
-  position: absolute;
-  right: 0px;
+  // position: absolute;
+  // right: 0px;
   // float: right;
 }
 
@@ -255,6 +255,12 @@ a:hover {
   caption: display;
   caption-side: bottom;
 }
+
+.down {
+  margin-top: 80px;
+}
+
+
 
 // div.box-right h3 {
 //   display: table-caption;
