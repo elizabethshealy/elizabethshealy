@@ -213,6 +213,9 @@ a:hover {
   border-right: 2px solid #fff;
   color: red; }
 
+.space {
+  margin-top: 60px; }
+
 .about-me-paragraph {
   margin-top: 80px; }
 
